@@ -10,6 +10,14 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.mycolor {
+  color:#ad202e ;
+  
+
+}
+  
+
+ 
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
@@ -39,7 +47,7 @@
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
+  --bs-danger: #ad202e;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 30, 48, 243;
@@ -8185,7 +8193,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-text-opacity), var(--bs-primary-rgb)) !important;
 }
 
 .text-secondary {
@@ -11555,12 +11563,12 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: #0097A7;
+  background: linear-gradient(135deg, #7e3ff2 0%, #0097A7 100%);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: #7e3ff2;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
